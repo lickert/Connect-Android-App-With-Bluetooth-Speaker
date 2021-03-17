@@ -24,12 +24,12 @@
         android:id="@+id/tbBluetooth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:textOn="@string/on"
-        android:textOff="@string/off"
         android:layout_marginTop="@dimen/dp_4"
-        app:layout_constraintTop_toTopOf="@id/tvBluetoothStatus"
-        app:layout_constraintBottom_toBottomOf="@id/tvBluetoothStatus"/>
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        app:layout_constraintBottom_toBottomOf="@id/tvBluetoothStatus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvBluetoothStatus" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnShowPairedDevices"
